@@ -1,0 +1,16 @@
+Arrivederci,goodbye|bye
+Buongiorno,good morning|good day
+Buonanotte,good night
+Buonasera,good evening
+è lei,it is her
+Grazie,thanks|thank you
+Non è una,it is not a
+Non è una ragazza,it is not a girl
+Non sono,I am not
+Non sono io,it is not me
+Per favore no,please no|no thank you
+Prego,you're welcome|you are welcome
+Salve,hello
+Sei tu,it is you
+Sono Io,it is me
+Spiacente,sorry

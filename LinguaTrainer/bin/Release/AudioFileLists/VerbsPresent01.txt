@@ -1,0 +1,137 @@
+Tu apri,tu apri
+Voi aprite,Voi aprite
+Arrivo,Arrivo
+Arriva,Arriva
+Arriva il caffè,Arriva il caffè
+Loro arrivano,Loro arrivano
+Io aspetto,Io aspetto
+Aspettiamo,Aspettiamo
+Voi aspettate,Voi aspettate
+Capisco,Capisco
+Capisci,Capisci 
+Capisce,Capisce
+Non capisco perché,Non capisco perché
+Io chiamo,Io chiamo
+Chiama,Chiama
+Chiede,Chiede
+Come,Come
+Conosco,Conosco.wav
+La conosco,Lo conosco.wav
+Lo conosco,Lo conosco.wav
+Conosciamo,Conosciamo.wav
+Io credo,Io credo.wav
+Crede,Crede.wav
+Noi crediamo,Noi crediamo.wav
+Loro credono,Loro credono.wav
+Cosa crede lei?,Cosa crede lei.wav
+dà,dà.wav
+Danno,Danno.wav
+Decide,Decide.wav
+Tu decidi,Tu decidi.wav
+Noi decidiamo,Noi decidiamo.wav
+Dice,Dice.wav
+Diciamo,Diciamo.wav
+Dicono,Dicono.wav
+Divento,Divento.wav
+Entrate,Entrate.wav
+Fare,Fare.wav
+Io faccio,Io faccio.wav
+Tu fai,Tu fai.wav
+Fa,Fa.wav
+Noi facciamo,Noi facciamo.wav
+Favore,Favore.wav
+Finisce,Finisce.wav
+Finisci,Finisci.wav
+Finiamo,Finiamo.wav
+Fratello,Fratello.wav
+Giacche,Giacche.wav
+Guarda,Guarda.wav
+Noi guardiamo,Noi guardiamo.wav
+Io ho,Io ho.wav
+Tu hai,Tu hai.wav
+Noi abbiamo,Noi abbiamo.wav
+Voi avete,Voi avete.wav
+Loro hanno,Loro hanno.wav
+Lascia,Lascia.wav
+Tu lavori,Tu lavori.wav
+Lavora,Lavora.wav
+Lavorano,Lavorano.wav
+Macchina,Macchina.wav
+Metto,Metto.wav
+Metti,Metti.wav
+Mettete,Mettete.wav
+Muore,Muore.wav
+Noi moriamo,Noi moriamo.wav
+Parla,Parla.wav
+Tu parli,Tu parli.wav
+Parlano,Parlano.wav
+Io passo,Io passo.wav
+Passi,Passi.wav
+Passiamo,Passiamo.wav
+Loro passano,Loro passano.wav
+Pensa,Pensa.wav
+Pensiamo,Pensiamo.wav
+Piace,Piace.wav
+Piacciono,Piacciono.wav
+Porta,Porta.wav
+Porti,Porti.wav
+Portano,Portano.wav
+Posso,Posso.wav
+Possiamo,Possiamo.wav
+Possono,Possono.wav
+Prendi,Prendi.wav
+Prende,Prende.wav
+Prendiamo,Prendiamo.wav
+Prendono,Prendono.wav
+Io ricordo,Io ricordo.wav
+Ricorda,Ricorda.wav
+ricordano,ricordano.wav
+Rimane,Rimane.wav
+Rimangono,Rimangono.wav
+So,So.wav
+Sa,Sa.wav
+Sai,Sai.wav
+Sappiamo,Sappiamo.wav
+Non so,Non so.wav
+Salve,Salve.wav
+Tu segui,Tu segui.wav
+Segue,Segue.wav
+Seguiamo,Seguiamo.wav
+Seguono,Seguono.wav
+Io sento,Io sento.wav
+noi sentiamo,noi sentiamo.wav
+Sta,Sta.wav
+Come sta,Come sta.wav
+Stai,Stai.wav
+Stanno,Stanno.wav
+Come stanno I ragazzi,Come stanno I ragazzi.wav
+Come stai,Come stai.wav
+Stelle,Stelle.wav
+Tieni,Tieni.wav
+Tenete,Tenete.wav
+Loro tengono,Loro tengono.wav
+Io trovo,Io trovo.wav
+Trovato,Trovato.wav
+Trovate,Trovate.wav
+Usi,Usi.wav
+Usiamo,Usiamo.wav
+Io vado,Io vado.wav
+Va,Va.wav
+Noi andiamo,Noi andiamo.wav
+Voi andate,Voi andate.wav
+Vanno,Vanno.wav
+Io vedo,Io vedo.wav
+Vede,Vede.wav
+Vediamo,Vediamo.wav
+Vengono,Vengono.wav
+Tu vieni,Tu vieni.wav
+Voi venite,Voi venite.wav
+Vivono,Vivono.wav
+Fai come vuoi,Fai come vuoi.wav
+Cosa vuole?,Cosa vuole.wav
+Voglio,Voglio.wav
+Vuoi,Vuoi.wav
+Vuole,Vuole.wav
+Vogliamo,Vogliamo.wav
+Vogliono,Vogliono.wav
+Cosa vuole?,Cosa vuole.wav

@@ -1,0 +1,27 @@
+portofoglio,portofoglio.wav
+cosa fai,cosa fai.wav
+vediamo,vediamo.wav
+vede,vede.wav
+tu sai,tu sai.wav
+tu vieni,tu vieni.wav
+voi venite,voi venite.wav
+come va,come va.wav
+prendono,prendono.wav
+conosciamo,conosciamo.wav
+mettete,mettete.wav
+pensano,pensano.wav
+danno,danno.wav
+conosco,conosco.wav
+diventa,diventa.wav
+divento,divento.wav
+Io divento,Io divento.wav
+capisci,capisci.wav
+chiama,chiama.wav
+chiamo,chiamo.wav
+rimangono,rimangono.wav
+tiene,tiene.wav
+tenete,tenete.wav
+cucchiaio,cucchiaio.wav
+guardate,guardate.wav
+muoio,muoio.wav
+apri,apri.wav

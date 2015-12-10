@@ -1,0 +1,39 @@
+Aglio,Aglio.wav
+Banana,Banana.wav
+Bevanda,Bevanda.wav
+Birra,Birra.wav
+Bicchiere,Bicchiere.wav
+Biscotto,Biscotto.wav
+Bolle,Bolle.wav
+Bottiglia,Bottiglia.wav
+Burro,Burro.wav
+Caffè,Caffè.wav
+Caramella,Caramella.wav
+Carota,Carota.wav
+Cibo,Cibo.wav
+Cioccolato,Cioccolato.wav
+Ciotola,Ciotola.wav
+Colazione,Colazione.wav
+Crema,Crema.wav
+Cuoco,Cuoco.wav
+Fagiolo,Fagiolo.wav
+Formaggio,Formaggio.wav
+Forchetta,Forchetta.wav
+Fritto,Fritto.wav
+Frutta,Frutta.wav
+Gelato,Gelato.wav
+Io cucino,IoCucino.wav
+Io taglio,IoTaglio.wav
+Lo,Lo.wav
+Lui cucina,LuiCucina.wav
+Lei cucina,LeiCucina.wav
+Manzo,Manzo.wav
+Mela,Mela.wav
+Pesce,Pesce.wav
+Piatto,Piatto.wav
+Pollo,Pollo.wav
+Taglia,Taglia.wav
+Tazza,Tazza.wav
+Torta,Torta.wav
+Uovo,Uovo.wav
+Uva,Uva.wav

@@ -1,0 +1,34 @@
+Accumula,accumulate
+Allenamento,training
+Apprendere|Apprendi|Imparare,learn
+Apprendi|Apprendere|Imparare,learn
+Imparare|Apprendi|Apprendere,learn
+Attacco,attack
+Ben fatto,well done
+Combattimento,combat
+Conseguenza,consequently
+Di apprendere,to learn
+Ed|e,and
+E|ed,and
+Efficaci,effective
+Fanno,does
+Fuori,out
+Incantesimo,spell|incantation
+Manichini,dummies|mannequins
+Mostrarmi,show
+Nuove,new
+Onore,honour
+Ora,time|hour|now
+Pratica,practice
+Progressi,progress
+Pronto,ready|quick
+Raggiungi,reach
+Stabilizzato,stabilised
+Su,about
+Tecniche,techniques
+Ti fanno,they make you|make you
+Tiro,shot
+Usalo|Uso,use
+Uso|Usalo,use
+Vai,go|go away|leave
+Volte,times

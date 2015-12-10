@@ -1,0 +1,47 @@
+Acido,sour,acidic
+Arancia,orange
+Bistecca,steak
+Cameriere,waiter
+Carne,meat
+Cena,He has dinner|She has dinner|He has supper|She has supper
+Ceniamo,We have dinner
+Cipolla,onion
+Coltello,knife
+Cucchiaio,spoon
+Cucina,kitchen|you cook|cook
+Cucina,you cook|kitchen|cook
+Dolce,sweet
+Fame,hungry
+Fragola,strawberry
+Funghi,mushrooms
+Ghiaccio,ice
+Griglia,grill
+Gusto,taste
+Ingrediente,ingredient
+Insalata,salad
+Limonata,lemonade
+Limone,lemon
+Maiale,pig|pork
+Marmellata,jam|marmalade
+Menu,menu
+Olio,oil
+Panino,sandwich
+Pasto,meal
+Patata,potato
+Pepe,pepper
+Pomodoro,tomata
+Pranza,he has lunch|she has lunch
+Pranzano,They have lunch
+Pranzo,lunch
+Ricetta,recipe
+Riso,rice
+Ristorante,restaurant
+Sale,salt
+Salsiccia,sausage
+Sono al ristorante,I am at the restaurant
+Succo,juice
+Tacchino,turkey
+Tè,tea
+Vegetariano,vegetarian
+Verdura,vegetable
+Zuppa,soup

@@ -1,0 +1,39 @@
+Aglio,garlic
+Banana,banana
+Bevanda,drink
+Birra,beer
+Bicchiere,glass
+Biscotto,cookie|biscuit
+Bolle,boils
+Bottiglia,bottle
+Burro,butter
+Caffè,coffee
+Caramella,candy
+Carota,Carrot
+Cibo,food
+Cioccolato,chocolate
+Ciotola,bowl|dish|basin
+Colazione,breakfast| lunch
+Crema,cream
+Cuoco,cook
+Fagiolo,bean
+Formaggio,cheese
+Forchetta,fork
+Fritto,fried
+Frutta,fruit
+Gelato,ice cream
+Io cucino,I cook
+Io taglio,I cut
+Lo,the
+Lui cucina,he cooks
+Lei cucina,she cooks
+Manzo,beef
+Mela,apple
+Pesce,fish
+Piatto,plate
+Pollo,chicken
+Taglia,cut
+Tazza,cup|mug
+Torta,cake|pie|tart
+Uovo,egg
+Uva,grape

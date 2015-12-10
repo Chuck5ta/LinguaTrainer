@@ -1,0 +1,35 @@
+bisogno,need
+che è,that has|that is
+Chiaroveggenza,clairvoyance
+Cinta,belt
+continuare,remain
+Diario,diary
+Devo,I have to
+favore,favor
+Flagello,plague
+ingombranti,bulky
+laghetto,lake|small lake|little lake|pond
+lasciato,left|leaving
+Magia,magic
+me,me
+non riuscito,unable|not successful
+oggetti,items|objects
+Pergamena,Parchment|scroll
+piuttosto,rather
+Pozzo,Well
+Pozzo Solare,Sunwell
+presi,acquired|taken
+presso,near|by|at
+punti,parts
+raccogliere,collect|you collect|gather|you gather
+riportali,return them|bring them back
+riuscito,able|successful
+sacca,bag
+Sfera,ball|sphere
+Sfera della Chiaroveggenza,Ball of clairvoyance
+spazio,space|room
+successo,happened|success|outcome
+tenere,keep|take
+vari,various
+vorrei,I would like
+vigilare,vigilant

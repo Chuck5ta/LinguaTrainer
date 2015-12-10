@@ -1,0 +1,35 @@
+bisogno,bisogno.wav
+che è,che è.wav
+Chiaroveggenza,Chiaroveggenza.wav
+Cinta,Cinta.wav
+continuare,continuare.wav
+Diario,Diario.wav
+Devo,Devo.wav
+favore,favore.wav
+Flagello,Flagello.wav
+ingombranti,ingombranti.wav
+laghetto,laghetto.wav
+lasciato,lasciato.wav
+Magia,Magia.wav
+me,me.wav
+non riuscito,non riuscito.wav
+oggetti,oggetti.wav
+Pergamena,Pergamena.wav
+piuttosto,piuttosto.wav
+Pozzo,Pozzo.wav
+Pozzo Solare,Pozzo Solare.wav
+presi,presi.wav
+presso,presso.wav
+punti,punti.wav
+raccogliere,raccogliere.wav
+riportali,riportali.wav
+riuscito,riuscito.wav
+sacca,sacca.wav
+Sfera,Sfera.wav
+Sfera della Chiaroveggenza,Sfera della Chiaroveggenza.wav
+spazio,spazio.wav
+successo,successo.wav
+tenere,tenere.wav
+vari,vari.wav
+vorrei,vorrei.wav
+vigilare,vigilare.wav

@@ -1,0 +1,137 @@
+tu apri,you open
+Voi aprite,you open
+Arrivo, I arrive
+Arriva,he arrives|she arrives|it arrives|you arrive
+Arriva il caffè,the coffee arrives
+Loro arrivano,they arrive
+Io aspetto,I wait
+Aspettiamo,we wait for
+Voi aspettate,you wait|you wait for|you await
+Capisco,I understand
+Capisci,you understand 
+Capisce,he understands|she understands|it understands
+Non capisco perché,I do not understand why
+Io chiamo,I call
+Chiama,he calls|she calls|it calls
+Chiede,asks|he asks for|she asks for|it asks for|you ask for
+Come,how|like|as|what
+Conosco,I know
+La conosco,I know her|I know it
+Lo conosco,I know him|I know it
+Conosciamo,we know
+Io credo,I believe
+Crede,he believes|she believes|it believes
+Noi crediamo,we believe
+Loro credono,they believe
+Cosa crede lei?,what does she believe?
+dà,he gives|she gives|it gives
+Danno,they give
+Decide,decides
+Tu decidi,you decide
+Noi decidiamo,we decide
+Dice,he tells|she tells|it tells|he says|she says|it says
+Diciamo,we say
+Dicono,they say
+Divento,I become
+Entrate,you enter
+Fare,to make|to do|to ask
+Io faccio,I make
+Tu fai,you make|you do
+Fa,he makes|she makes|it makes
+Noi facciamo,we make|we do|we ask
+Favore,favour
+Finisce,he follows|she follows|it finishes
+Finisci,you finish
+Finiamo,we finish
+Fratello,brother
+Giacche,jacket|coat
+Guarda,he watches|she watches|it watches|he looks at|she looks at|it looks at
+Noi guardiamo,we look at
+Io ho,I have
+Tu hai,you have
+Noi abbiamo,we have
+Voi avete,you have
+Loro hanno,They have
+Lascia,he leaves|she leaves|it leaves
+Lavora,he works|she works|it works
+Tu lavori,you work
+Lavorano,they work
+Macchina,car
+Metto,I put
+Metti,you put
+Mettete,you put
+Muore,he dies|she dies|it dies
+Noi moriamo,we die
+Parla,speaks
+Tu parli,you speak
+Parlano,they speak
+Io passo,I pass
+Passi,you pass
+Passiamo,we pass
+Loro passano,they pass
+Pensa,he thinks|she thinks|it thinks
+Pensiamo,we think
+Piace,he likes|she likes|it likes
+Piacciono,they like
+Porta,he wears|she wears|it wears|it brings|he brings|she brings
+Porti,you bring|you wear
+Portano,they bring|they wear
+Posso,I can
+Possiamo,we can
+Possono,they can
+Prendi,you take| get
+Prende,he takes|she takes|it takes|it gets|he gets|she gets
+Prendiamo,we take|we get
+Prendono,they take|they get
+Io ricordo,I remember
+Ricorda,remember
+ricordano,they remember
+Rimane,he remains|she remains|it remains|he stays|she stays|it stays
+Rimangono,they remain
+So,I know|I can
+Sa,he knows|she knows|it knows
+Sai,you know
+Sappiamo,we know
+Non so,I do not know
+Salve,hello
+Tu segui,you follow
+Segue,he follows|she follows|it follows
+Seguiamo,we follow
+Seguono,they follow
+Io sento,I hear|I smell|I feel
+noi sentiamo,we hear|we smell|we feel
+Sta,he is|she is|it is|you are
+Come sta,how are you
+Stai,are you
+Stanno,They are
+Come stanno I ragazzi,how are the boys
+Come stai,how are you
+Stelle,stars
+Tieni,you hold|you keep
+Tenete,you keep|you hold
+Loro tengono,they keep|they hold
+Io trovo,I find
+Trovato,you find
+Trovate,you all find
+Usi,use
+Usiamo,we use
+Io vado,I go
+Va,He goes|she goes|it goes
+Noi andiamo,we go
+Voi andate,you all go
+Vanno,they go
+Io vedo,I see
+Vede,He sees|she sees|it sees|it watches|He watches|she watches
+Vediamo,we see
+Vengono,They come|they arrive
+Tu vieni,you come
+Voi venite,you all come
+Vivono,they live
+Fai come vuoi,do as you want
+Cosa vuole?,what do you want
+Voglio,I want
+Vuoi,you want
+Vuole,he wants|she wants|it wants|you want
+Vogliamo,we want
+Vogliono,they want
+Cosa vuole?,what do you want?
