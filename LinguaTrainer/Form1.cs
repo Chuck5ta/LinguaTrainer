@@ -1,13 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.Collections;
-
 using System.Threading; // Thread. Sleep
 using System.Media;
 
@@ -24,7 +17,8 @@ namespace LinguaTrainer
         string italianParole, englishParole;
         int totalCorrectAnswers, totalLivesLeft, totalLives, totalQuestions, currentQuestion;
         int typeOfTest; // 1 = English to Italian, 2 = Italian to English
-        bool settingsShowing, textTestItalianToEnglish, textTestEnglishToItalian, audioTestItalianToEnglish, audioTestVerbatim;
+        bool settingsShowing;
+            // englishWordToItalian, textTestItalianToEnglish, textTestEnglishToItalian, audioTestItalianToEnglish, audioTestVerbatim;
 
         public Form1()
         {
@@ -74,10 +68,11 @@ namespace LinguaTrainer
             btnReplayAudio.Enabled = false;
 
             settingsShowing = false;
-            textTestItalianToEnglish = true;
-            textTestEnglishToItalian = true;
-            audioTestItalianToEnglish = true;
-            audioTestVerbatim = true;
+        //    englishWordToItalian = true;
+        //    textTestItalianToEnglish = true;
+        //    textTestEnglishToItalian = true;
+        //    audioTestItalianToEnglish = true;
+        //    audioTestVerbatim = true;
         }
 
 
@@ -87,6 +82,13 @@ namespace LinguaTrainer
          */
         private void btnStartTest_Click(object sender, EventArgs e)
         {
+            // make sure at least one type of test has been selected
+            if (!cbItalianToEnglish.Checked && !cbEnglishToItalian.Checked && !cbAudioItalianToEnglish.Checked && !cbAudioVerbatim.Checked)
+            {
+                MessageBox.Show("ERROR - all tests have been deactivated, please exit program NOW!");
+                Application.Exit();
+            }
+
             // enable the speaker
             btnReplayAudio.Enabled = true;
 
@@ -160,20 +162,14 @@ namespace LinguaTrainer
             while (getRandomNumber)
             {
                 typeOfTest = randomNumber.Next(1, 6);
-                if (typeOfTest == 1 && textTestItalianToEnglish)
+                if (typeOfTest == 1 && cbItalianToEnglish.Checked)
                     getRandomNumber = false; // 
-                else if ((typeOfTest == 2 || typeOfTest == 3) && textTestEnglishToItalian)
+                else if ((typeOfTest == 2 || typeOfTest == 3) && cbEnglishToItalian.Checked)
                     getRandomNumber = false; // 
-                else if ((typeOfTest == 4) && audioTestItalianToEnglish)
+                else if ((typeOfTest == 4) && cbAudioItalianToEnglish.Checked)
                     getRandomNumber = false; // 
-                else if (typeOfTest == 5 && audioTestVerbatim)
+                else if (typeOfTest == 5 && cbAudioVerbatim.Checked)
                     getRandomNumber = false;
-                // make sure at least one type of test has been selected
-                if (!textTestItalianToEnglish && !textTestEnglishToItalian && !audioTestItalianToEnglish && !audioTestVerbatim)
-                {
-                    MessageBox.Show("ERROR - all tests have been deactivated, please exit program NOW!");
-                    Application.Exit();
-                }
             }
 
             switch (typeOfTest)
@@ -710,22 +706,27 @@ namespace LinguaTrainer
 
         private void cbItalianToEnglish_CheckedChanged(object sender, EventArgs e)
         {
-            textTestItalianToEnglish = !textTestItalianToEnglish;
+        //   textTestItalianToEnglish = !textTestItalianToEnglish;
+        //   MessageBox.Show("textTestItalianToEnglish " + textTestItalianToEnglish);
         }
 
         private void cbEnglishToItalian_CheckedChanged(object sender, EventArgs e)
         {
-            textTestEnglishToItalian = !textTestEnglishToItalian;
+        //    englishWordToItalian = !englishWordToItalian;
+        //    textTestEnglishToItalian = !textTestEnglishToItalian;
+        //    MessageBox.Show("textTestEnglishToItalian " + englishWordToItalian);
         }
 
         private void cbAudioItalianToEnglish_CheckedChanged(object sender, EventArgs e)
         {
-            audioTestItalianToEnglish = !audioTestItalianToEnglish;
+        //    audioTestItalianToEnglish = !audioTestItalianToEnglish;
+        //    MessageBox.Show("audioTestItalianToEnglish " + audioTestItalianToEnglish);
         }
 
         private void cbAudioVerbatim_CheckedChanged(object sender, EventArgs e)
         {
-            audioTestVerbatim = !audioTestVerbatim;
+        //    audioTestVerbatim = !audioTestVerbatim;
+        //    MessageBox.Show("audioTestVerbatim " + audioTestVerbatim);
         }
 
         private void comboWordList_Click(object sender, EventArgs e)

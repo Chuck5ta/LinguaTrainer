@@ -7,3 +7,12 @@ D:\Current Projects\Lingua Trainer\LinguaTrainer\LinguaTrainer\obj\Release\Lingu
 D:\Current Projects\Lingua Trainer\LinguaTrainer\LinguaTrainer\obj\Release\LinguaTrainer.csproj.GenerateResource.Cache
 D:\Current Projects\Lingua Trainer\LinguaTrainer\LinguaTrainer\obj\Release\LinguaTrainer.exe
 D:\Current Projects\Lingua Trainer\LinguaTrainer\LinguaTrainer\obj\Release\LinguaTrainer.pdb
+D:\Utils\LinguaTraner\LinguaTrainer\bin\Release\LinguaTrainer.exe.config
+D:\Utils\LinguaTraner\LinguaTrainer\bin\Release\LinguaTrainer.exe
+D:\Utils\LinguaTraner\LinguaTrainer\bin\Release\LinguaTrainer.pdb
+D:\Utils\LinguaTraner\LinguaTrainer\obj\Release\LinguaTrainer.Form1.resources
+D:\Utils\LinguaTraner\LinguaTrainer\obj\Release\LinguaTrainer.Properties.Resources.resources
+D:\Utils\LinguaTraner\LinguaTrainer\obj\Release\LinguaTrainer.csproj.GenerateResource.cache
+D:\Utils\LinguaTraner\LinguaTrainer\obj\Release\LinguaTrainer.exe
+D:\Utils\LinguaTraner\LinguaTrainer\obj\Release\LinguaTrainer.pdb
+D:\Utils\LinguaTraner\LinguaTrainer\obj\Release\LinguaTrainer.csprojAssemblyReference.cache
