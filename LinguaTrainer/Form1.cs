@@ -65,7 +65,7 @@ namespace LinguaTrainer
             rbImageTest04.Visible = false;
 
             // enable the speaker
-            btnReplayAudio.Enabled = false;
+            btnReplayAudio.Enabled = true;
 
             settingsShowing = false;
         //    englishWordToItalian = true;
@@ -88,9 +88,6 @@ namespace LinguaTrainer
                 MessageBox.Show("ERROR - all tests have been deactivated, please exit program NOW!");
                 Application.Exit();
             }
-
-            // enable the speaker
-            btnReplayAudio.Enabled = true;
 
             // set totals
             totalLives = Convert.ToInt32(cmbTotalLives.Text); // default of 3
@@ -260,7 +257,8 @@ namespace LinguaTrainer
             englishParole = wordsList.Values[wordIdx];
 
             // AUDIO
-            playAudio(italianWord);
+            if (cbAudio.Checked == true)
+                playAudio(italianWord);
 
             // return the correct answer (Engliah translation)
             return wordsList.Values[wordIdx];
@@ -292,7 +290,8 @@ namespace LinguaTrainer
             englishParole = wordsList.Values[wordIdx];
 
             // AUDIO
-            playAudio(italianWord);
+            if (cbAudio.Checked == true)
+                playAudio(italianWord);
 
             // return the correct answer (Italian word that was spoken)
             return wordsList.Keys[wordIdx];
@@ -323,7 +322,8 @@ namespace LinguaTrainer
             englishParole = wordsList.Values[wordIdx];
 
             // AUDIO
-            playAudio(italianWord);
+            if (cbAudio.Checked == true)
+                playAudio(italianWord);
 
             // return the correct answer
             return wordsList.Values[wordIdx];
@@ -374,14 +374,16 @@ namespace LinguaTrainer
                     tbOutputArea.Text = "Yey, that is correct :D\r\n\r\n" + "Italian word(s): " + italianParole + "\r\nEnglish word(s): " + englishParole;
                     lblTotalCorrectAnswers.Text = totalCorrectAnswers.ToString();
                     displayATick();
-                    playSound(@"audio\correctAnswer.wav");
+                    if (cbAudio.Checked == true)
+                        playSound(@"audio\correctAnswer.wav");
                     Thread.Sleep(1000);
                     if (typeOfTest == 2 || typeOfTest == 3) // we need to make sure the Italian word spoken is the same as the one entered (for when there is more than one)
                     {
                         italianWord = tbAnswerEntryBox.Text;
                     }
 
-                    playAudio(italianWord);
+                    if (cbAudio.Checked == true)
+                        playAudio(italianWord);
                     Thread.Sleep(1000);
                 }
                 else
@@ -391,10 +393,13 @@ namespace LinguaTrainer
                     // decrease number of lives left
                     totalLivesLeft -= 1;
                     removeALife();
-                    playSound("ERRORexplosion.wav");
-                    Thread.Sleep(1000);
-                    playAudio(italianWord);
-                    Thread.Sleep(1000);
+                    if (cbAudio.Checked == true)
+                    {
+                        playSound("ERRORexplosion.wav");
+                        Thread.Sleep(1000);
+                        playAudio(italianWord);
+                        Thread.Sleep(1000);
+                    }
                 }
                 // change button text to Next question
                 btnChechAnswer.Text = "Next question";
@@ -464,7 +469,8 @@ namespace LinguaTrainer
             btnChechAnswer.Enabled = false;
             // inform player that the test is over
             tbOutputArea.Text = "ALL QUESTIONS ANSWERED! \r\n\r\n" + "Press START to have another go :)";
-            playSound(@"audio\endOfTest.wav");
+            if (cbAudio.Checked == true)
+                playSound(@"audio\endOfTest.wav");
         }
 
         /*
@@ -477,7 +483,8 @@ namespace LinguaTrainer
             btnChechAnswer.Enabled = false;
             // inform player that the test is over
             tbOutputArea.Text = "ALL LIVES HAVE BEEN LOST! \r\n\r\n" + "Press START to have another go :)";
-            playSound(@"audio\endOfTest.wav");
+            if (cbAudio.Checked == true)
+                playSound(@"audio\endOfTest.wav");
         }
 
 
@@ -596,7 +603,8 @@ namespace LinguaTrainer
                 }
             }
 
-            playSound(@"audio\" + currentWavLocation);
+            if (cbAudio.Checked == true)
+                playSound(@"audio\" + currentWavLocation);
         }
 
 
@@ -675,7 +683,8 @@ namespace LinguaTrainer
         {
             if (currentWavLocation == "")
                 currentWavLocation = "ERRORexplosion.wav";
-            playSound(@"audio\" + currentWavLocation);
+            if (cbAudio.Checked == true)
+                playSound(@"audio\" + currentWavLocation);
         }
 
         private void btnSettings_Click(object sender, EventArgs e)
@@ -708,6 +717,20 @@ namespace LinguaTrainer
         {
         //   textTestItalianToEnglish = !textTestItalianToEnglish;
         //   MessageBox.Show("textTestItalianToEnglish " + textTestItalianToEnglish);
+        }
+
+        private void cbAudio_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbAudio.Checked)
+            {
+                cbAudio.Text = "Audio ON";
+                btnReplayAudio.Enabled = true;
+            }
+            else
+            {
+                cbAudio.Text = "Audio OFF";
+                btnReplayAudio.Enabled = false;
+            }
         }
 
         private void cbEnglishToItalian_CheckedChanged(object sender, EventArgs e)

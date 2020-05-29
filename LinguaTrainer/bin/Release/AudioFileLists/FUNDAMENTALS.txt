@@ -1,0 +1,11 @@
+abbandonare,abbandonare.wav
+abbassare,abbassare.wav
+abbastanza,abbastanza.wav
+abbracciare,abbracciare.wav
+abitare,abitare.wav
+manovrata,manovrata.wav
+sottotitoli,sottotitoli.wav
+seguimi,seguimi.wav
+lei vorrebbe,lei_vorrebbe.wav
+Io voglio,Io_voglio.wav
+lei vuole,lei_vuole.wav

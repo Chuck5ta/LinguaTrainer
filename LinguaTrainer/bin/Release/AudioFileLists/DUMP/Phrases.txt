@@ -1,0 +1,15 @@
+Arrivederci,Arrivederci.wav
+Buongiorno,Buongiorno.wav
+Buonanotte,Buonanotte.wav
+Buonasera,Buonasera.wav
+è lei,è lei.wav
+Grazie,Grazie.wav
+Non è una,Non è una.wav
+Non è una ragazza,Non è una ragazza.wav
+Non sono,Non sono.wav
+Non sono io,Non sono io.wav
+Per favore no,Per favore no.wav
+Prego,Prego.wav
+Sei tu,Sei tu.wav
+Sono Io,Sono Io.wav
+Spiacente,Spiacente.wav

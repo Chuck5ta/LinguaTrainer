@@ -1,0 +1,15 @@
+Allora,Allora.wav
+Anche,anche.wav
+Cominciamo,Cominciamo.wav
+Diminuirne,Diminuirne.wav
+Esercitavamo,Esercitavamo.wav
+Inanellati,Inanellati.wav
+Inoltre,Inoltre.wav
+Onorario,Onorario.wav
+Padiglione,Padiglione.wav
+Poi,Poi.wav
+Quelli,Quelli.wav
+Queste,Queste.wav
+Quindi,Quindi.wav
+Vuoi,Vuoi.wav
+Vicino,Vicino.wav

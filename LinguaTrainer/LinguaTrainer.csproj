@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="images\heart.jpg" />
+    <None Include="images\smiley.jpg" />
     <Content Include="images\speaker.jpg" />
     <Content Include="images\tick.jpg" />
     <None Include="src\images\tick.jpg" />

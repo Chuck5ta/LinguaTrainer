@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.rbImageTest04 = new System.Windows.Forms.RadioButton();
             this.rbImageTest03 = new System.Windows.Forms.RadioButton();
             this.rbImageTest02 = new System.Windows.Forms.RadioButton();
@@ -66,6 +67,7 @@
             this.cbEnglishToItalian = new System.Windows.Forms.CheckBox();
             this.cbItalianToEnglish = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.cbAudio = new System.Windows.Forms.CheckBox();
             this.pbImageTest04 = new System.Windows.Forms.PictureBox();
             this.pbImageTest03 = new System.Windows.Forms.PictureBox();
             this.pbImageTest02 = new System.Windows.Forms.PictureBox();
@@ -190,7 +192,7 @@
             this.tbTranslateThis.BackColor = System.Drawing.SystemColors.Control;
             this.tbTranslateThis.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbTranslateThis.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTranslateThis.Location = new System.Drawing.Point(104, 241);
+            this.tbTranslateThis.Location = new System.Drawing.Point(116, 241);
             this.tbTranslateThis.Margin = new System.Windows.Forms.Padding(4);
             this.tbTranslateThis.Name = "tbTranslateThis";
             this.tbTranslateThis.ReadOnly = true;
@@ -201,7 +203,7 @@
             // btnUForwardAccent
             // 
             this.btnUForwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUForwardAccent.Location = new System.Drawing.Point(701, 332);
+            this.btnUForwardAccent.Location = new System.Drawing.Point(713, 332);
             this.btnUForwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnUForwardAccent.Name = "btnUForwardAccent";
             this.btnUForwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -213,7 +215,7 @@
             // btnUbackwardAccent
             // 
             this.btnUbackwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUbackwardAccent.Location = new System.Drawing.Point(660, 332);
+            this.btnUbackwardAccent.Location = new System.Drawing.Point(672, 332);
             this.btnUbackwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnUbackwardAccent.Name = "btnUbackwardAccent";
             this.btnUbackwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -225,7 +227,7 @@
             // btnOForwardAccent
             // 
             this.btnOForwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnOForwardAccent.Location = new System.Drawing.Point(613, 332);
+            this.btnOForwardAccent.Location = new System.Drawing.Point(625, 332);
             this.btnOForwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnOForwardAccent.Name = "btnOForwardAccent";
             this.btnOForwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -237,7 +239,7 @@
             // btnObackwardAccent
             // 
             this.btnObackwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnObackwardAccent.Location = new System.Drawing.Point(572, 332);
+            this.btnObackwardAccent.Location = new System.Drawing.Point(584, 332);
             this.btnObackwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnObackwardAccent.Name = "btnObackwardAccent";
             this.btnObackwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -249,7 +251,7 @@
             // btnIForwardAccent
             // 
             this.btnIForwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIForwardAccent.Location = new System.Drawing.Point(525, 332);
+            this.btnIForwardAccent.Location = new System.Drawing.Point(537, 332);
             this.btnIForwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnIForwardAccent.Name = "btnIForwardAccent";
             this.btnIForwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -261,7 +263,7 @@
             // btnIbackwardAccent
             // 
             this.btnIbackwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnIbackwardAccent.Location = new System.Drawing.Point(484, 332);
+            this.btnIbackwardAccent.Location = new System.Drawing.Point(496, 332);
             this.btnIbackwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnIbackwardAccent.Name = "btnIbackwardAccent";
             this.btnIbackwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -273,7 +275,7 @@
             // btnEForwardAccent
             // 
             this.btnEForwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEForwardAccent.Location = new System.Drawing.Point(437, 332);
+            this.btnEForwardAccent.Location = new System.Drawing.Point(449, 332);
             this.btnEForwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnEForwardAccent.Name = "btnEForwardAccent";
             this.btnEForwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -285,7 +287,7 @@
             // btnEbackwardAccent
             // 
             this.btnEbackwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEbackwardAccent.Location = new System.Drawing.Point(396, 332);
+            this.btnEbackwardAccent.Location = new System.Drawing.Point(408, 332);
             this.btnEbackwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnEbackwardAccent.Name = "btnEbackwardAccent";
             this.btnEbackwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -297,7 +299,7 @@
             // btnAForwardAccent
             // 
             this.btnAForwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAForwardAccent.Location = new System.Drawing.Point(349, 332);
+            this.btnAForwardAccent.Location = new System.Drawing.Point(361, 332);
             this.btnAForwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnAForwardAccent.Name = "btnAForwardAccent";
             this.btnAForwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -309,7 +311,7 @@
             // btnAbackwardAccent
             // 
             this.btnAbackwardAccent.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAbackwardAccent.Location = new System.Drawing.Point(308, 332);
+            this.btnAbackwardAccent.Location = new System.Drawing.Point(320, 332);
             this.btnAbackwardAccent.Margin = new System.Windows.Forms.Padding(4);
             this.btnAbackwardAccent.Name = "btnAbackwardAccent";
             this.btnAbackwardAccent.Size = new System.Drawing.Size(33, 34);
@@ -391,7 +393,7 @@
             // btnChechAnswer
             // 
             this.btnChechAnswer.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChechAnswer.Location = new System.Drawing.Point(100, 332);
+            this.btnChechAnswer.Location = new System.Drawing.Point(112, 332);
             this.btnChechAnswer.Margin = new System.Windows.Forms.Padding(4);
             this.btnChechAnswer.Name = "btnChechAnswer";
             this.btnChechAnswer.Size = new System.Drawing.Size(168, 38);
@@ -415,7 +417,7 @@
             // tbOutputArea
             // 
             this.tbOutputArea.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbOutputArea.Location = new System.Drawing.Point(184, 398);
+            this.tbOutputArea.Location = new System.Drawing.Point(196, 398);
             this.tbOutputArea.Margin = new System.Windows.Forms.Padding(4);
             this.tbOutputArea.Multiline = true;
             this.tbOutputArea.Name = "tbOutputArea";
@@ -425,7 +427,7 @@
             // tbAnswerEntryBox
             // 
             this.tbAnswerEntryBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbAnswerEntryBox.Location = new System.Drawing.Point(100, 287);
+            this.tbAnswerEntryBox.Location = new System.Drawing.Point(112, 287);
             this.tbAnswerEntryBox.Margin = new System.Windows.Forms.Padding(4);
             this.tbAnswerEntryBox.Name = "tbAnswerEntryBox";
             this.tbAnswerEntryBox.Size = new System.Drawing.Size(648, 37);
@@ -596,6 +598,19 @@
             this.label5.TabIndex = 139;
             this.label5.Text = "Settings";
             // 
+            // cbAudio
+            // 
+            this.cbAudio.AutoSize = true;
+            this.cbAudio.Checked = true;
+            this.cbAudio.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cbAudio.Location = new System.Drawing.Point(5, 332);
+            this.cbAudio.Name = "cbAudio";
+            this.cbAudio.Size = new System.Drawing.Size(91, 21);
+            this.cbAudio.TabIndex = 149;
+            this.cbAudio.Text = "Audio ON";
+            this.cbAudio.UseVisualStyleBackColor = true;
+            this.cbAudio.CheckedChanged += new System.EventHandler(this.cbAudio_CheckedChanged);
+            // 
             // pbImageTest04
             // 
             this.pbImageTest04.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -651,7 +666,7 @@
             // 
             // pbTick20
             // 
-            this.pbTick20.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick20.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick20.Location = new System.Drawing.Point(804, 100);
             this.pbTick20.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick20.Name = "pbTick20";
@@ -661,7 +676,7 @@
             // 
             // pbTick19
             // 
-            this.pbTick19.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick19.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick19.Location = new System.Drawing.Point(763, 100);
             this.pbTick19.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick19.Name = "pbTick19";
@@ -671,7 +686,7 @@
             // 
             // pbTick18
             // 
-            this.pbTick18.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick18.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick18.Location = new System.Drawing.Point(721, 100);
             this.pbTick18.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick18.Name = "pbTick18";
@@ -681,7 +696,7 @@
             // 
             // pbTick17
             // 
-            this.pbTick17.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick17.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick17.Location = new System.Drawing.Point(680, 100);
             this.pbTick17.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick17.Name = "pbTick17";
@@ -691,7 +706,7 @@
             // 
             // pbTick16
             // 
-            this.pbTick16.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick16.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick16.Location = new System.Drawing.Point(639, 100);
             this.pbTick16.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick16.Name = "pbTick16";
@@ -701,7 +716,7 @@
             // 
             // pbTick15
             // 
-            this.pbTick15.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick15.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick15.Location = new System.Drawing.Point(597, 100);
             this.pbTick15.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick15.Name = "pbTick15";
@@ -711,7 +726,7 @@
             // 
             // pbTick14
             // 
-            this.pbTick14.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick14.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick14.Location = new System.Drawing.Point(556, 100);
             this.pbTick14.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick14.Name = "pbTick14";
@@ -721,8 +736,8 @@
             // 
             // pbTick13
             // 
-            this.pbTick13.Image = global::LinguaTrainer.Properties.Resources.tick;
-            this.pbTick13.Location = new System.Drawing.Point(515, 100);
+            this.pbTick13.Image = global::LinguaTrainer.Properties.Resources.smiley;
+            this.pbTick13.Location = new System.Drawing.Point(517, 100);
             this.pbTick13.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick13.Name = "pbTick13";
             this.pbTick13.Size = new System.Drawing.Size(43, 39);
@@ -731,7 +746,7 @@
             // 
             // pbTick12
             // 
-            this.pbTick12.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick12.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick12.Location = new System.Drawing.Point(473, 100);
             this.pbTick12.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick12.Name = "pbTick12";
@@ -741,7 +756,7 @@
             // 
             // pbTick11
             // 
-            this.pbTick11.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick11.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick11.Location = new System.Drawing.Point(432, 100);
             this.pbTick11.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick11.Name = "pbTick11";
@@ -751,7 +766,7 @@
             // 
             // pbTick10
             // 
-            this.pbTick10.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick10.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick10.Location = new System.Drawing.Point(391, 100);
             this.pbTick10.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick10.Name = "pbTick10";
@@ -761,7 +776,7 @@
             // 
             // pbTick09
             // 
-            this.pbTick09.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick09.Image = global::LinguaTrainer.Properties.Resources.smiley1;
             this.pbTick09.Location = new System.Drawing.Point(349, 100);
             this.pbTick09.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick09.Name = "pbTick09";
@@ -771,7 +786,7 @@
             // 
             // pbTick08
             // 
-            this.pbTick08.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick08.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick08.Location = new System.Drawing.Point(308, 100);
             this.pbTick08.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick08.Name = "pbTick08";
@@ -781,7 +796,7 @@
             // 
             // pbTick07
             // 
-            this.pbTick07.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick07.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick07.Location = new System.Drawing.Point(267, 100);
             this.pbTick07.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick07.Name = "pbTick07";
@@ -791,7 +806,7 @@
             // 
             // pbTick06
             // 
-            this.pbTick06.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick06.Image = global::LinguaTrainer.Properties.Resources.smiley;
             this.pbTick06.Location = new System.Drawing.Point(225, 100);
             this.pbTick06.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick06.Name = "pbTick06";
@@ -801,7 +816,7 @@
             // 
             // pbTick05
             // 
-            this.pbTick05.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick05.Image = ((System.Drawing.Image)(resources.GetObject("pbTick05.Image")));
             this.pbTick05.Location = new System.Drawing.Point(184, 100);
             this.pbTick05.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick05.Name = "pbTick05";
@@ -811,7 +826,7 @@
             // 
             // pbTick04
             // 
-            this.pbTick04.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick04.Image = ((System.Drawing.Image)(resources.GetObject("pbTick04.Image")));
             this.pbTick04.Location = new System.Drawing.Point(143, 100);
             this.pbTick04.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick04.Name = "pbTick04";
@@ -821,7 +836,7 @@
             // 
             // pbTick03
             // 
-            this.pbTick03.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick03.Image = ((System.Drawing.Image)(resources.GetObject("pbTick03.Image")));
             this.pbTick03.Location = new System.Drawing.Point(101, 100);
             this.pbTick03.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick03.Name = "pbTick03";
@@ -831,7 +846,7 @@
             // 
             // pbTick02
             // 
-            this.pbTick02.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick02.Image = ((System.Drawing.Image)(resources.GetObject("pbTick02.Image")));
             this.pbTick02.Location = new System.Drawing.Point(60, 100);
             this.pbTick02.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick02.Name = "pbTick02";
@@ -841,7 +856,7 @@
             // 
             // pbTick01
             // 
-            this.pbTick01.Image = global::LinguaTrainer.Properties.Resources.tick;
+            this.pbTick01.Image = ((System.Drawing.Image)(resources.GetObject("pbTick01.Image")));
             this.pbTick01.Location = new System.Drawing.Point(19, 100);
             this.pbTick01.Margin = new System.Windows.Forms.Padding(4);
             this.pbTick01.Name = "pbTick01";
@@ -914,6 +929,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1118, 592);
+            this.Controls.Add(this.cbAudio);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.comboAudioList);
@@ -1093,6 +1109,7 @@
         private System.Windows.Forms.PictureBox pbImageTest03;
         private System.Windows.Forms.PictureBox pbImageTest02;
         private System.Windows.Forms.PictureBox pbImageTest01;
+        private System.Windows.Forms.CheckBox cbAudio;
     }
 }
 

@@ -1,0 +1,26 @@
+portofoglio,wallet
+cosa fai,what are you doing
+vediamo,we see
+vede,he sees|she sees|it sees
+tu sai,you know
+tu vieni|voi venite,you come
+voi venite|tu vieni,you come
+come va,how is it going
+prendono,they take
+conosciamo,we know
+mettete,you put
+pensano,they think
+danno,they give
+conosco,I know
+diventa,becomes
+divento|Io divento,I become|become
+capisci,you understand
+chiama,he calls|she calls|it calls
+chiamo,I call
+rimangono,remain
+tiene|tenete,you keep
+tenete|tiene,you keep
+cucchiaio,spoon
+guardate,you watch
+muoio,I die
+apri,you open

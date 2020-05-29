@@ -1,0 +1,11 @@
+abbandonare,abandon
+abbassare,to lower
+abbastanza,enough
+abbracciare,embrace
+abitare,inhabit
+manovrata,manipulated
+sottotitoli,subtitles
+seguimi,follow me
+lei vorrebbe,you would like
+Io voglio,I want
+lei vuole,you want

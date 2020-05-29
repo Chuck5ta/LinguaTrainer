@@ -1,0 +1,27 @@
+Accademia,academy
+Assistante,assistant
+Buona,good
+Continueremo,we will continue|continue|we continue|will continue
+Controllare,check|verify|control
+Cosa da fare,what to do
+Devi,you have to
+Devono,they have to
+Dirà,tell|tell you
+Dirige,heads|goes
+Dovresti,you should|you ought
+Fortuna,luck|fortune|success
+Mentre,while
+Paraggi,nearby
+Parlare,you speak|you talk
+Prossima,next,upcoming,forthcoming
+Questione,question|issue
+Riguarda,concerns|regards|regard
+Saranno,will be
+Semplicemente,simply
+Sentiero,path|trail
+Spiegherà,explain|will explain|will
+Strada,road
+Ti,you|will|thee|thyself|yourself
+Trovarlo,find
+Tutto,everything|all
+Urgente,urgent
